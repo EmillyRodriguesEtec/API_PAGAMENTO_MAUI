@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9izEfVIsSI69Ofex7QMUsOA7dmPqA5CiGE+g0+3Ij7Rn8Mj++2eqgqR2X3y4WLwwHBaNYTEjkToE//qXYTAoeA==",
+  "dgSpecHash": "Udyj+WUmOVUj5InwVjR6+sDABdwwizxJox2zX0Hz12u4pzYYu8V9vMd6YTIfGMXwviee0VrOXU9iOU2pP1KW4w==",
   "success": true,
   "projectFilePath": "D:\\EmillyR-HenriqueN\\PAM\\API_Pagamento\\API_Pagamento\\API_Pagamento.csproj",
   "expectedPackageFiles": [
@@ -24,8 +24,10 @@
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221109.1\\microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512",
+    "C:\\Users\\etechas\\.nuget\\packages\\mongodb.bson\\2.20.0\\mongodb.bson.2.20.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\etechas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\etechas\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",

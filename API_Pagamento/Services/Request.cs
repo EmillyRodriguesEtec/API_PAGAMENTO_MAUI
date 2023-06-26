@@ -1,10 +1,12 @@
-﻿using Newtonsoft.Json;
+﻿using MongoDB.Bson.IO;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using JsonConvert = Newtonsoft.Json.JsonConvert;
 
 namespace API_Pagamento.Services
 {

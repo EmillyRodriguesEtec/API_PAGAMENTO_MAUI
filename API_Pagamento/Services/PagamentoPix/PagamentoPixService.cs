@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 
-namespace API_Pagamento.Services.PagamentoPix
+namespace API_Pagamento.Services
 {
     public class PagamentoPixService : Request
     {
@@ -26,33 +26,19 @@ namespace API_Pagamento.Services.PagamentoPix
         public async Task<ObservableCollection<PagamentoPix>> GetPagamentoPixAsync()
         {
             string urlComplementar = string.Format("{0}", "/GetAll");
-            ObservableCollection<Models.PagamentoPix> listaPagamentos = await 
+            ObservableCollection<Models.PagamentoPix> listaPagamento = await
             _request.GetAsync<ObservableCollection<Models.PagamentoPix>>(apiUrlBase + urlComplementar, _token);
-
-            return listaPagamentos;
+            return listaPagamento;
         }
-
-        public IActionResult ObterComprovante(string idPagamento)
+        public async Task<PagamentoPix> GetPagamentoPixAsync(int idPagamento)
         {
-            var pagamento = _request.PagamentosPix.FirstOrDefault(p => p.id_pagamento == idPagamento);
-            if (pagamento == null)
-            {
-                return NotFound();
-            }
-            var comprovante = JsonConvert.SerializeObject(pagamento);
-            return Ok(comprovante);
+            string urlComplementar = string.Format("/{0}", idPagamento);
+            var pagamento = await _request.GetAsync<Models.PagamentoPix>(apiUrlBase + urlComplementar, _token);
+            return pagamento;
         }
-
-        public async Task<IActionResult> ObterTodos(string idPagamento)
+        public async Task<int> PostPagamentoPixAsync(PagamentoPix p)
         {
-            var pagamento = await _request.PagamentosPix.ToListAsync();
-            if (pagamento == null)
-            {
-                return NotFound();
-            }
-            return Ok(pagamento);
+            return await _request.PostReturnIntTokenAsync(apiUrlBase, p, _token);
         }
-
-
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace API_Pagamento;
+﻿using API_Pagamento.Views.Pagamento;
+
+namespace API_Pagamento;
 
 public partial class App : Application
 {
@@ -6,6 +8,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
+		MainPage = new Views.Pagamento.ListagemView();
 	}
 }
