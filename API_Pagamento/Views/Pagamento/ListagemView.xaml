@@ -3,8 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="API_Pagamento.Views.Pagamento.ListagemView"
              Title="ListagemView">
-    <VerticalStackLayout Padding="10, 0, 0, 0" VerticalOptions="FillAndExpand">
-        <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Pagamento}" >
+    <Shell.TitleView>
+        <Button Command="{Binding NovoPagamento}" Text="Novo" HorizontalOptions="End"></Button>
+    </Shell.TitleView>
+        <VerticalStackLayout Padding="10, 0, 0, 0" VerticalOptions="FillAndExpand">
+        <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Pagamento}" 
+                  SelectedItem="{Binding PagamentoPixSelecionado}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -16,6 +20,5 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-       
     </VerticalStackLayout>
 </ContentPage>

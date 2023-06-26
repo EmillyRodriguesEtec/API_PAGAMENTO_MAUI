@@ -8,39 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = API_Pagamento
-build_property.ProjectDir = D:\EmillyR-HenriqueN\PAM\API_Pagamento\API_Pagamento\
+build_property.ProjectDir = D:\PAM\API_PAGAMENTO_MAUI\API_Pagamento\
 
-[D:/EmillyR-HenriqueN/PAM/API_Pagamento/API_Pagamento/App.xaml]
+[D:/PAM/API_PAGAMENTO_MAUI/API_Pagamento/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = API_Pagamento.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/EmillyR-HenriqueN/PAM/API_Pagamento/API_Pagamento/AppShell.xaml]
+[D:/PAM/API_PAGAMENTO_MAUI/API_Pagamento/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = API_Pagamento.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/EmillyR-HenriqueN/PAM/API_Pagamento/API_Pagamento/MainPage.xaml]
+[D:/PAM/API_PAGAMENTO_MAUI/API_Pagamento/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = API_Pagamento.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/EmillyR-HenriqueN/PAM/API_Pagamento/API_Pagamento/Resources/Styles/Colors.xaml]
+[D:/PAM/API_PAGAMENTO_MAUI/API_Pagamento/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = API_Pagamento.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/EmillyR-HenriqueN/PAM/API_Pagamento/API_Pagamento/Resources/Styles/Styles.xaml]
+[D:/PAM/API_PAGAMENTO_MAUI/API_Pagamento/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = API_Pagamento.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/EmillyR-HenriqueN/PAM/API_Pagamento/API_Pagamento/Views/Pagamento/ListagemView.xaml]
+[D:/PAM/API_PAGAMENTO_MAUI/API_Pagamento/Views/Pagamento/CadastroPagamentoView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = API_Pagamento.Views.Pagamento.CadastroPagamentoView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Pagamento\CadastroPagamentoView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Pagamento\CadastroPagamentoView.xaml
+
+[D:/PAM/API_PAGAMENTO_MAUI/API_Pagamento/Views/Pagamento/ListagemView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = API_Pagamento.Views.Pagamento.ListagemView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Pagamento\ListagemView.xaml

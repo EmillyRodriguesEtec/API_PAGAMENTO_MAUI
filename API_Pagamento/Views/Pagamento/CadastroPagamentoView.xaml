@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="API_Pagamento.Views.Pagamento.CadastroPagamentoView"
+             Shell.PresentationMode="Animated"
+             Title="CadastroPagamentoView">
+    <ScrollView>
+        <VerticalStackLayout Spacing="3" Padding="15">
+            <Label Text="Id" FontSize="Medium" />
+            <Entry Text="{Binding id_pagamento}" IsEnabled="False" FontSize="Medium" />
+            
+            <Label Text="Nome" FontSize="Medium" />
+            <Entry Text="{Binding nome_emissor}" FontSize="Medium" />
+
+            <Label Text="Valor" FontSize="Medium" />
+            <Entry Text="{Binding valor}" FontSize="Medium" Keyboard="Numeric" />
+
+            <Label Text="Data Pagamento" FontSize="Medium" />
+            <Entry Text="{Binding data_pagamento}" FontSize="Medium" Keyboard="Text" />
+            
+            <Label Text="Chave Pix" FontSize="Medium" />
+            <Entry Text="{Binding chave_pix}" FontSize="Medium" Keyboard="Text" />
+            
+            <Label Text="Nome receptor" FontSize="Medium" />
+            <Entry Text="{Binding nome_receptor}" FontSize="Medium" Keyboard="Text" />
+
+            <HorizontalStackLayout Spacing="20">
+                <Button Text="Salvar" Command="{Binding SalvarCommand}"></Button>
+                <Button Text="Cancel" Command="{Binding CancelarCommand}"></Button>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

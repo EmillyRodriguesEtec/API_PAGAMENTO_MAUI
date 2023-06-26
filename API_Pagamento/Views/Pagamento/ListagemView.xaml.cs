@@ -10,8 +10,14 @@ public partial class ListagemView : ContentPage
 	{
 		InitializeComponent();
 
-		viewModel= new ListagemPagamentoViewModel();
+		viewModel = new ListagemPagamentoViewModel();
 		BindingContext = viewModel;
 		Title = "Pagamento Pix - APP Pagamento";
+	}
+
+	protected override void OnAppearing()
+	{
+		base.OnAppearing();
+		_ = viewModel.ObterPagamento();
 	}
 }

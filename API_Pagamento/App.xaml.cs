@@ -8,6 +8,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new Views.Pagamento.ListagemView();
+		MainPage = new AppShell();
 	}
 }
